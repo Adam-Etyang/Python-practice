@@ -1,9 +1,9 @@
 def sum_of_digits(number):
     total = 0
-    while number > 0:
-        digit = number % 10
-        total += digit
-        number = number // 10
+    while number > 0:  # the loop will run until number has been reduced to 0
+        digit = number % 10  # getting the last digit from the number
+        total += digit  # adding the last digit to the total
+        number = number // 10  # removing the last digit from number
     return total
 
 

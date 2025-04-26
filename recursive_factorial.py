@@ -1,7 +1,7 @@
 def factorial(num):
-    if num == 0:
+    if num == 0:  # base case
         return 1
-    else:
+    else:  # recursive case
         return num * factorial(num - 1)
 
 
