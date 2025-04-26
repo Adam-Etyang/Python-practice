@@ -5,4 +5,6 @@ def even_or_odd(num):
         print("the number is odd")
 
 
-even_or_odd(2)
+if __name__ == "__main__":
+    number = int(input("enter a number: "))
+    even_or_odd(number)
